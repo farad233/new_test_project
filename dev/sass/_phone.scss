@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+    .nav__info {
+        width: 368px;
+    }
+    .nav__links {
+        width: 368px;
+    }
+    .slider__desriptions h2, .slider__desriptions p {
+        width: auto;
+    }
+    .slick-dots {
+        bottom: -200px;
+    }
+    .slick-next {
+        right: 0;
+        top: 525px;
+    }
+    .slick-prev {
+        top: 525px;
+    }
+    .inform__block .cityscape {
+        margin-right: 97px;
+        img {
+            width: 172px;
+            height: 172px;
+        }
+    }
+    .section__form .form {
+        width: 300px;
+    }
+    .section__form .form .form_name_surname {
+        width: 135px;
+    }
+    .block__cards {
+        padding: 30px 0;
+    }
+    .description__block {
+        padding-top: 50px;
+    }
+}

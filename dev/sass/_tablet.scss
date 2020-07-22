@@ -1,0 +1,42 @@
+@media screen and (max-width: 1169px) {
+    html {
+        font-size: 14px;
+    }
+    .description__block {
+        .svg__bloks {
+            margin-bottom: 50px;
+        }
+    }
+    .block__cards .card {
+        width: 320px;
+        &:hover::before {
+            width: 100%;
+        }
+    }
+    .description__card_tablet {
+        width: 87%;
+    }
+    .inform__block .tab-pane {
+        width: auto;
+    }
+    .section__form .form {
+        width: 390px;
+    }
+    .section__form .form .form_name_surname {
+        width: 180px;
+    }
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media screen and (min-width: 989px) { 
+    .block__cards .card {
+        width: 370px;
+        &:hover::before {
+            width: 100%;
+        }
+    }
+}
