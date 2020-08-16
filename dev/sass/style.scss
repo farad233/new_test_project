@@ -2,7 +2,6 @@
 // ::-moz-placeholder          {color: #DFDFDF;}/* Firefox 19+ */
 // :-moz-placeholder           {color: #DFDFDF;}/* Firefox 18- */
 // :-ms-input-placeholder      {color: #DFDFDF;}
-$fm: 'Roboto', sans-serif;;  
 * {
     box-sizing: border-box;
 }
@@ -13,6 +12,14 @@ body,h1,h2,h3,h4,h5,p,a,ul {
     padding: 0;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    background: #cccccc;
+    font-family: 'Heebo', sans-serif;
+}
+@font-face {
+	font-family: 'Conv_anisette-petite';
+	src: url('fonts/anisette-petite.eot');
+	src: local('☺'), url('../fonts/anisette-petite.woff') format('woff'), url('fonts/anisette-petite.ttf') format('truetype'), url('fonts/anisette-petite.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 @import 'include';

@@ -1,9 +1,8 @@
-inputName = document.getElementById('name'),addEventListener('input',
-(   {target:  {value} }) => {
-    console.log(value)
+const linksModal = $('.social_link_active')
+const btn = $('.btn__links')
+
+btn.on("click", function () {
+    linksModal.toggleClass('social_link_active')
 });
 
-inputTel = document.getElementById('telephone'),addEventListener('input',
-(   {target:  {value} }) => {
-    console.log(value)
-});
+

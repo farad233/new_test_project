@@ -36,6 +36,12 @@ gulp.task("js", function () {
     .pipe(gulp.dest("build/js"))
     .pipe(server.stream());
 });
+gulp.task("fonts", function () {
+  return gulp.src("dev/fonts/**.**")
+    .pipe(plumber())
+    .pipe(gulp.dest("build/fonts"))
+    .pipe(server.stream());
+});
 
 gulp.task("slick", function () {
   return gulp.src("dev/slick/**")
@@ -74,5 +80,5 @@ gulp.task("server", function () {
 });
 
 
-gulp.task("dev", gulp.series("clean", "html", "js", "slick", "css", "copy", "purgecss", "server"))
+gulp.task("dev", gulp.series("clean", "html", "js", "fonts", "slick", "css", "copy", "purgecss", "server"))
 
